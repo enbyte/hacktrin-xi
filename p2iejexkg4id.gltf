@@ -1,0 +1,147 @@
+{
+    "asset": {
+        "version": "1.0",
+        "generator": "Open Asset Import Library (assimp v4.1.0)"
+    },
+    "accessors": {
+        "mesh_accessor": {
+            "bufferView": "mesh_view",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 521,
+            "type": "VEC3",
+            "max": [
+                2.495990514755249,
+                0.9695283770561218,
+                0.22224999964237214
+            ],
+            "min": [
+                -2.9040873050689699,
+                -0.7370386123657227,
+                -0.22224999964237214
+            ]
+        },
+        "mesh_accessor_0": {
+            "bufferView": "mesh_view_0",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5126,
+            "count": 521,
+            "type": "VEC3",
+            "max": [
+                0.9802263379096985,
+                0.9995117783546448,
+                1.0
+            ],
+            "min": [
+                -0.9995117783546448,
+                -0.9995117783546448,
+                -1.0
+            ]
+        },
+        "mesh_accessor_1": {
+            "bufferView": "mesh_view_1",
+            "byteOffset": 0,
+            "byteStride": 0,
+            "componentType": 5123,
+            "count": 786,
+            "type": "SCALAR",
+            "max": [
+                520.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    },
+    "buffers": {
+        "../../download/p2iejexkg4id/p2iejexkg4id": {
+            "byteLength": 14076,
+            "type": "arraybuffer",
+            "uri": "../../download/p2iejexkg4id/p2iejexkg4id.bin"
+        }
+    },
+    "bufferViews": {
+        "mesh_view": {
+            "buffer": "../../download/p2iejexkg4id/p2iejexkg4id",
+            "byteOffset": 0,
+            "byteLength": 6252,
+            "target": 34962
+        },
+        "mesh_view_0": {
+            "buffer": "../../download/p2iejexkg4id/p2iejexkg4id",
+            "byteOffset": 6252,
+            "byteLength": 6252,
+            "target": 34962
+        },
+        "mesh_view_1": {
+            "buffer": "../../download/p2iejexkg4id/p2iejexkg4id",
+            "byteOffset": 12504,
+            "byteLength": 1572,
+            "target": 34963
+        }
+    },
+    "materials": {
+        "DefaultMaterial": {
+            "values": {
+                "ambient": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "diffuse": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "specular": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "emission": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "shininess": 0.0
+            }
+        }
+    },
+    "meshes": {
+        "mesh": {
+            "name": "",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": "DefaultMaterial",
+                    "indices": "mesh_accessor_1",
+                    "attributes": {
+                        "POSITION": "mesh_accessor",
+                        "NORMAL": "mesh_accessor_0"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "<STL_BINARY>": {
+            "meshes": [
+                "mesh"
+            ]
+        }
+    },
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "<STL_BINARY>"
+            ]
+        }
+    },
+    "scene": "defaultScene"
+}
